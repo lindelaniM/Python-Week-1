@@ -1,28 +1,29 @@
 # Python-Week-1
 
-Introduction to Python:
+# Introduction to Python:
 
-> How are files store on a computer memory, in blocks
-> To access the file location we can use a pointer to the location of the file
-> Files can be stored as 'Text files - Strings or characters, Integers, Floats, Hexadecimal'
-> A file name has to have a specific data type before is stored on the memory of a computer
-> File names are reffered to as variables, and they can either be declared empty or initialised a value
-> Computer machines uses what is reffered to as a pseudocode to read and execute programs (Algorthm)
-> This a summury of how a Computer thinks
+- How are files store on a computer memory == in blocks
+- To access the file location we can use a pointer to the location of the file
+- Files can be stored as 'Text files - Strings or characters, Integers, Floats, Hexadecimal'
+- A file name has to have a specific data type before is stored on the memory of a computer
+- File names are reffered to as variables, and they can either be declared empty or initialised a value
+- Computer machines uses what is reffered to as a pseudocode to read and execute programs (Algorthm)
+- This a summury of how a Computer thinks
 
-> How to install python and run it on your machine:
-> For one to be abale to run a python program on their machines they must have a python Extension/Software installed
-> Installing Jupyter Notebook, which is a web based IDE to run python codes, and we can also run a python code on the terminal
-> We can also use a text editor like Vs Code. to run python code, to edit or modify our codes
+# How to install python and run it on your machine:
+- For one to be abale to run a python program on their machines they must have a python Extension/Software installed
+- Installing Jupyter Notebook, which is a web based IDE to run python codes, and we can also run a python code on the terminal
+- We can also use a text editor like Vs Code. to run python code, to edit or modify our codes
 
-Variables and types:
+# Variables and types:
 
-> Vars in python just like in any other programming language can be integer, floating point, strings of char, boolean
-> These are the data types a variable cann take before it is stored on the computer memory
-> Every variable must be correctly asigned to its correct data type to avoid errors
-> Vars in python just like in any other programming language can be integer, floating point, strings of char, Boolean
-Every variable must be correctly assigned to its correct data type to avoid errors
-Example:
+- Vars in python just like in any other programming language can be integer, floating point, strings of char, boolean
+- These are the data types a variable cann take before it is stored on the computer memory
+- Every variable must be correctly asigned to its correct data type to avoid errors
+- Vars in python just like in any other programming language can be integer, floating point, strings of char, Boolean
+- Every variable must be correctly assigned to its correct data type to avoid errors
+
+# Example:
 
 print (“”Hello world!”)
 x = 7
@@ -119,6 +120,37 @@ print(Selling)
 Selling = {k: r*zar for k, r in Book_prices.items()}
 print("This are the book prices in Rands" ,Selling)
 
+# Control flow
+
+Control flows are used to perform actions only when a certain condition is met, unless otherwise.
+
+#If statement
+if len(ArdaCiti) <= 5:
+
+    print ("First person on the list is:", ArdaCiti[0])
+    
+#If – else statement
+ArdaCiti = ['Lindelani', 'George', 'Mesuli', 'Nolu', 'Zanda']
+
+if 'Lindelani' in ArdaCiti:  #Using the If statement
+    
+    print("Lindelani is part of the group")
+
+else:
+    print("He's not part of the group") #Else statement if condition 
+
+#For loop
+for Nolu in ArdaCiti:
+
+    print ("Group stays active")
+    break
+    
+#While loop
+while len(ArdaCiti) < 5:
+
+    print ("Group is normal")
+    break
+    
 # Function
 - Functions takes input and produces output
 - A functions can be given a set of instructions
