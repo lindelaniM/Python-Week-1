@@ -37,10 +37,10 @@ Grade = 50, 34, 78, 38, 75, 75
 type(Grade)
 
 # List comprehension
-list = [5,8,5,7,6,912,21,50,60]
-
-even_list = [x for x in list if x % 2 ==0] # To get numbers that are even and divisible by 2
-Odd_list = [x for x in list if x % 2 != 0 ] # Odd numbers in the list
+1. list = [5,8,5,7,6,912,21,50,60]
+2. 
+3. even_list = [x for x in list if x % 2 ==0] # To get numbers that are even and divisible by 2
+4. Odd_list = [x for x in list if x % 2 != 0 ] # Odd numbers in the list
 
 #print (even_list)
 #print (Odd_list)
