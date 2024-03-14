@@ -29,13 +29,13 @@ x = 7
 y = 8.0
 print (x + y)
 
-#Tuple
+# Tuple
 
 Grade = 50, 34, 78, 38, 75, 75
 
 type(Grade)
 
-#List comprehension
+# List comprehension
 list = [5,8,5,7,6,912,21,50,60]
 
 even_list = [x for x in list if x % 2 ==0] # To get numbers that are even and divisible by 2
@@ -61,17 +61,17 @@ company = {
 
 #print(company.get("name"))
 
-#def calculator():
+# def calculator():
 
     #print("I do maths better")
 
-#calculator()
+# calculator()
 
 company.popitem() #Remove the last item added to the Dictonary
 
 print (company)
 
-#Nested Dictionary
+# Nested Dictionary
 
 candidate1 = {
  "name" : "Mtiza",
@@ -100,8 +100,28 @@ candidate3 = {
 
 print(MyCandidates.get("candidate1"))
 
-#Function
-.Functions takes input and produces output
+# Dictioanary comprehension
+
+Book_prices = { #in Dolla
+
+    "Maths" : 50,
+    "Accounting" : 35,
+    "Geography" : 67,
+    "Science" : 92
+}
+
+zar = 00.62
+
+Selling = {k: r for k, r in Book_prices.items()}
+print(Selling)
+
+#Convert to Rand
+
+Selling = {k: r*zar for k, r in Book_prices.items()}
+print("This are the book prices in Rands" ,Selling)
+
+# Function
+Functions takes input and produces output
 .A functions can be given a set of instructions
 .In python, functions can be defined using the ‘def’ command
 .Every function must have a function name, arguments which are optional, and the function body
