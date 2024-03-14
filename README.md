@@ -64,8 +64,7 @@ company = {
 # def calculator():
 
     #print("I do maths better")
-
-# calculator()
+calculator()
 
 company.popitem() #Remove the last item added to the Dictonary
 
@@ -91,7 +90,7 @@ candidate3 = {
  "Work" : "CapaCiTi"
 }
 
-# MyCandidates = {
+#MyCandidates = {
 
     "candidate1" : candidate1,
     "candidate2" : candidate2,
@@ -121,7 +120,7 @@ Selling = {k: r*zar for k, r in Book_prices.items()}
 print("This are the book prices in Rands" ,Selling)
 
 # Function
-Functions takes input and produces output
-.A functions can be given a set of instructions
-.In python, functions can be defined using the ‘def’ command
-.Every function must have a function name, arguments which are optional, and the function body
+- Functions takes input and produces output
+- A functions can be given a set of instructions
+- In python, functions can be defined using the ‘def’ command
+- Every function must have a function name, arguments which are optional, and the function body
