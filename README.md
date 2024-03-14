@@ -41,64 +41,58 @@ type(Grade)
 2. 
 3. even_list = [x for x in list if x % 2 ==0] # To get numbers that are even and divisible by 2
 4. Odd_list = [x for x in list if x % 2 != 0 ] # Odd numbers in the list
+5. 
+6. #print (even_list)
+7. #print (Odd_list)
+8. 
+9. new = [x/2 if x % 2 == 0 else 2*x for x in list ]
+10. print (new)
+ 
+# Dictionaries
+- Are accessed using a keys, does not allow duplicates
+- Changeable, ordered
+- To check whether you have a list, set or a tuple you can use the function ‘type(My_list)’ for example if you have the function My_list
 
-#print (even_list)
-#print (Odd_list)
-
-new = [x/2 if x % 2 == 0 else 2*x for x in list ]
-print (new)
-
-#Dictionary
-#Accessed using a keys, does not allow duplicates
-#Changeable, ordered
-#To check whether you have a list, set or a tuple you can use the function ‘type(My_list)’ for example if you have the function My_list
-
-company = {
-
-    "name" : "CapaCiTi",
-    "Workers" : 5,
-    "Age" : 1960
-}
-
-#print(company.get("name"))
-
-# def calculator():
-
-    #print("I do maths better")
-calculator()
-
-company.popitem() #Remove the last item added to the Dictonary
-
-print (company)
+1. company = {
+2. 
+3.   "name" : "CapaCiTi",
+4.   "Workers" : 5,
+5.   "Age" : 1960
+6. }
+7.
+8. print(company.get("name"))
+9.
+10. company.popitem() #Remove the last item added to the Dictonary
+11. print (company)
 
 # Nested Dictionary
 
-candidate1 = {
- "name" : "Mtiza",
- "Age" : 30,
- "Work" : "CapaCiTi"
-}
-
-candidate2 = {
-    "name" : "Melz",
-    "Age" : 40,
-    "Work" : "CapaCiTi"
-}
-
-candidate3 = {
- "name" : "Lorrane",
- "Age" : 20,
- "Work" : "CapaCiTi"
-}
-
-#MyCandidates = {
-
-    "candidate1" : candidate1,
-    "candidate2" : candidate2,
-    "candidate3" : candidate3
-}
-
-print(MyCandidates.get("candidate1"))
+1. candidate1 = {
+2. "name" : "Mtiza",
+3. "Age" : 30,
+4. "Work" : "CapaCiTi"
+5. }
+6. 
+7. candidate2 = {
+8.   "name" : "Melz",
+9.   "Age" : 40,
+10.  "Work" : "CapaCiTi"
+11. }
+12. 
+13. candidate3 = {
+14. "name" : "Lorrane",
+15. "Age" : 20,
+16. "Work" : "CapaCiTi"
+17. }
+18. 
+19. MyCandidates = {
+20. 
+21.    "candidate1" : candidate1,
+22.    "candidate2" : candidate2,
+23.    "candidate3" : candidate3
+24. }
+25. 
+26. print(MyCandidates.get("candidate1"))
 
 # Dictioanary comprehension
 
