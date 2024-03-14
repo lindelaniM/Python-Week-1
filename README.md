@@ -25,10 +25,10 @@
 
 # Example:
 
-print (“”Hello world!”)
-x = 7
-y = 8.0
-print (x + y)
+- print (”Hello world!”) #Working with strings
+- x = 7 #integer value
+- y = 8.0 #Double/ float
+- print (x + y) #Adding float and int
 
 # Tuple
 
