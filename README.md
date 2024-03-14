@@ -101,7 +101,7 @@ candidate3 = {
 print(MyCandidates.get("candidate1"))
 
 #Function
-Functions takes input and produces output
-A functions can be given a set of instructions
-In python, functions can be defined using the ‘def’ command
-Every function must have a function name, arguments which are optional, and the function body
+.Functions takes input and produces output
+.A functions can be given a set of instructions
+.In python, functions can be defined using the ‘def’ command
+.Every function must have a function name, arguments which are optional, and the function body
