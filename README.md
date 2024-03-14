@@ -67,25 +67,25 @@ type(Grade)
 
 # Nested Dictionary
 
-1. candidate1 = {
+candidate1 = {
   "name" : "Mtiza",
   "Age" : 30,
   "Work" : "CapaCiTi"
  }
  
-2. candidate2 = {
+candidate2 = {
    "name" : "Melz",
    "Age" : 40,
    "Work" : "CapaCiTi"
  }
  
-3. candidate3 = {
+ candidate3 = {
     "name" : "Lorrane",
     "Age" : 20,
     "Work" : "CapaCiTi"
     }
  
-19. MyCandidates = {
+MyCandidates = {
     
     "candidate1" : candidate1,
     "candidate2" : candidate2,
