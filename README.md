@@ -54,45 +54,45 @@ type(Grade)
 - To check whether you have a list, set or a tuple you can use the function ‘type(My_list)’ for example if you have the function My_list
 
 1. company = {
-2. 
-3.   "name" : "CapaCiTi",
-4.   "Workers" : 5,
-5.   "Age" : 1960
-6. }
-7.
-8. print(company.get("name"))
-9.
+ 
+   "name" : "CapaCiTi",
+   "Workers" : 5,
+   "Age" : 1960
+ }
+  
+ print(company.get("name"))
+
 10. company.popitem() #Remove the last item added to the Dictonary
 11. print (company)
 
 # Nested Dictionary
 
 1. candidate1 = {
-2. "name" : "Mtiza",
-3. "Age" : 30,
-4. "Work" : "CapaCiTi"
-5. }
-6. 
-7. candidate2 = {
-8.   "name" : "Melz",
-9.   "Age" : 40,
-10.  "Work" : "CapaCiTi"
-11. }
-12. 
-13. candidate3 = {
-14. "name" : "Lorrane",
-15. "Age" : 20,
-16. "Work" : "CapaCiTi"
-17. }
-18. 
+  "name" : "Mtiza",
+  "Age" : 30,
+  "Work" : "CapaCiTi"
+ }
+ 
+2. candidate2 = {
+   "name" : "Melz",
+   "Age" : 40,
+   "Work" : "CapaCiTi"
+ }
+ 
+3. candidate3 = {
+    "name" : "Lorrane",
+    "Age" : 20,
+    "Work" : "CapaCiTi"
+    }
+ 
 19. MyCandidates = {
-20. 
-21.    "candidate1" : candidate1,
-22.    "candidate2" : candidate2,
-23.    "candidate3" : candidate3
-24. }
-25. 
-26. print(MyCandidates.get("candidate1"))
+    
+    "candidate1" : candidate1,
+    "candidate2" : candidate2,
+    "candidate3" : candidate3
+ }
+ 
+print(MyCandidates.get("candidate1"))
 
 # Dictioanary comprehension
 
