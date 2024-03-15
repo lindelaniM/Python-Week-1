@@ -150,3 +150,43 @@ while len(ArdaCiti) < 5:
 - A functions can be given a set of instructions
 - In python, functions can be defined using the ‘def’ command
 - Every function must have a function name, arguments which are optional, and the function body
+
+#Calculator exercise:
+def calculator():
+
+    balance = 1500.00
+    print("Available balance: R",balance)
+    print("\n")
+    key = input("What would you like to do? \n1: Deposit,\n3: Withdraw,\n4: See balance,\n5: Done with transaction:")
+    key = int(key)
+
+    case = {
+        1: "Deposit Money",
+        2: "Withdraw Money",
+        3: "Check balance",
+        4: "Done with transaction"
+    }
+    
+    if key == 1 in case:
+        
+        num = input("Please enter the ammount you want to Deposit: ")
+        num = int(num)
+        num = num + balance
+        print("Your balance is now: " ,num)
+
+    if key == 2 in case:
+
+        num = input("Please enter the ammount you want to Deposit: ")
+        num = int(num)
+        num = balance - num
+        print("Your balance is now: " ,num)
+        
+    if key == 3 in case:
+
+        print("Available balance is: R",balance)
+
+    if key == 4 in case:
+
+        print("THANK YOU FOR USING OUR SERVICE")
+
+calculator()
