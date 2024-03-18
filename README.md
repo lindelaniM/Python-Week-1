@@ -192,38 +192,38 @@ def calculator():
 calculator()
 
 # More functions example:
-#example 1 #
-def get_greeting(name):
-    return f"Hi {name}"
-message = get_greeting("Mtiza")
-print (message)
+#example 1
+ def get_greeting(name):
+     return f"Hi {name}"
+ message = get_greeting("Mtiza")
+ print (message)
 
-#example 2 #
-def incr(number, by):
-    return number + by
-results = incr(5,9)
-print(results)
+#example 2
+ def incr(number, by):
+     return number + by
+ results = incr(5,9)
+ print(results)
 
-#example 3 #
-def mult(*numbers):
-    total = 1
-    for number in numbers:
-        total = total * number
-    return total
-mult(2,4,6)
+#example 3
+ def mult(*numbers):
+     total = 1
+     for number in numbers:
+         total = total * number
+     return total
+ mult(2,4,6)
 
-#Get a dictionary as a results #
+#Get a dictionary as a results
 
-def calling(**user):
-    print(user)
-calling(Id = 12345, name = "Mtiza", address = "n54gf3")
+ def calling(**user):
+     print(user)
+ calling(Id = 12345, name = "Mtiza", address = "n54gf3")
 
-#Global/local scope #
-name = "a"
-
-def g():
-    global name
-    name = "b"
-g()
-print(name)
+#Global/local scope
+ name = "a"
+ 
+ def g():
+     global name
+     name = "b"
+ g()
+ print(name)
 
